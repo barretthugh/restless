@@ -14,9 +14,7 @@ RUN pip install -r /requirement.txt
 #WORKDIR app
 #COPY app /app
 
-#EXPOSE 9090 9191
-#USER uwsgi
-EXPOSE 2009
+EXPOSE 5000
 
 #CMD ["/cmd.sh"]
 #CMD ["python", "/app/app.py"]
