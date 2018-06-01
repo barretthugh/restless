@@ -1,4 +1,4 @@
-FROM python:3.6.2
+FROM python:3.6.5
 
 ENV TZ=Asia/Shanghai
 #RUN groupadd -r uwsgi && useradd -r -g uwsgi uwsgi
